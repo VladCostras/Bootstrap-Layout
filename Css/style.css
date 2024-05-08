@@ -1,3 +1,19 @@
-.translate-middle {
-    transform: translate(-20%, -20%);
+/********************HERO-SEction*********************/
+#hero-section {
+    background-image: url(../Img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+#motto {
+    background-color:rgb(159, 226, 191);
+    padding: 10px;
+    text-align: center;
+}
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row.display-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
